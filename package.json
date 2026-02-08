@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Modern interactive portfolio website",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "echo 'Build complete - static files ready'",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^9.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
