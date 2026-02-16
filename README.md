@@ -291,3 +291,6 @@ MIT License - Feel free to use this project for your own portfolio!
 ---
 
 **Made with JavaScript, creativity, and attention to detail.**
+"# first-project26-" 
+"# first-project26-" 
+"# first-project26-" 
