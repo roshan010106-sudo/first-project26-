@@ -1,31 +1,33 @@
 const projectsData = [
     {
         id: 1,
-        title: "E-Commerce Platform",
+        title: "Meesho",
         description: "A full-featured online shopping platform with cart, checkout, and payment integration.",
         category: "web",
         tags: ["React", "Node.js", "MongoDB"],
-        gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+        gradient: "linear-gradient(135deg, #1c1c1c 0%, #eaeaea 100%)"
     },
     {
         id: 2,
-        title: "Task Management App",
+        title: " Time Table ",
         description: "Collaborative task management tool with real-time updates and team features.",
         category: "web",
         tags: ["Vue.js", "Express", "Socket.io"],
-        gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+        gradient: "linear-gradient(135deg, #7d4684 0%, #dcadb3 100%)"
+        
     },
     {
         id: 3,
-        title: "Mobile Banking UI",
+        title: "Sbi Banking UI",
         description: "Modern and secure banking application interface with biometric authentication.",
         category: "mobile",
         tags: ["React Native", "Firebase"],
-        gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
+        gradient: "linear-gradient(135deg, #021d34 0%, #3b4a4b 100%)",
+        
     },
     {
         id: 4,
-        title: "Portfolio Website",
+        title: " My Portfolio",
         description: "Creative portfolio website with stunning animations and interactive elements.",
         category: "design",
         tags: ["HTML", "CSS", "JavaScript"],
@@ -33,7 +35,7 @@ const projectsData = [
     },
     {
         id: 5,
-        title: "Social Media Dashboard",
+        title: "Zoho Social",
         description: "Analytics dashboard for tracking social media metrics and engagement.",
         category: "web",
         tags: ["Angular", "D3.js", "Node.js"],
@@ -41,7 +43,7 @@ const projectsData = [
     },
     {
         id: 6,
-        title: "Fitness Tracking App",
+        title: "Google Fit",
         description: "Track workouts, nutrition, and health goals with personalized insights.",
         category: "mobile",
         tags: ["Flutter", "Firebase"],
@@ -49,7 +51,7 @@ const projectsData = [
     },
     {
         id: 7,
-        title: "Brand Identity Design",
+        title: "Canva",
         description: "Complete brand identity including logo, colors, and design system.",
         category: "design",
         tags: ["Figma", "Illustrator"],
@@ -57,7 +59,7 @@ const projectsData = [
     },
     {
         id: 8,
-        title: "Weather Forecast App",
+        title: "Windy.com",
         description: "Real-time weather information with beautiful visualizations and forecasts.",
         category: "web",
         tags: ["React", "API Integration"],
@@ -65,7 +67,7 @@ const projectsData = [
     },
     {
         id: 9,
-        title: "Recipe Sharing Platform",
+        title: "Tasty",
         description: "Share and discover recipes with a community of food enthusiasts.",
         category: "web",
         tags: ["Next.js", "PostgreSQL"],
@@ -73,7 +75,7 @@ const projectsData = [
     },
     {
         id: 10,
-        title: "Meditation App UI",
+        title: "Simple Habit",
         description: "Calming and intuitive interface for meditation and mindfulness exercises.",
         category: "mobile",
         tags: ["Swift", "CoreData"],
@@ -81,7 +83,7 @@ const projectsData = [
     },
     {
         id: 11,
-        title: "Dashboard UI Kit",
+        title: "Material  UI ",
         description: "Comprehensive UI kit with reusable components for admin dashboards.",
         category: "design",
         tags: ["Sketch", "Design System"],
@@ -89,7 +91,7 @@ const projectsData = [
     },
     {
         id: 12,
-        title: "Chat Application",
+        title: "Whatsapp",
         description: "Real-time messaging app with group chats and media sharing.",
         category: "web",
         tags: ["React", "Socket.io", "Redis"],

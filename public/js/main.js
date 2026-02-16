@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initContactForm();
     initScrollToTop();
     initSmoothScroll();
+    initScrollDown();
 });
 
 function initLoader() {
@@ -92,6 +93,40 @@ function initNavigation() {
 
         updateActiveNavLink();
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('active');
@@ -492,6 +527,21 @@ function initSmoothScroll() {
                     behavior: 'smooth'
                 });
             }
+        });
+    });
+}
+
+
+
+function initScrollDown() {
+    const scrollBtn = document.getElementById("scrollDown");
+    const targetSection = document.getElementById("about");   // 👈 destination
+
+    if (!scrollBtn || !targetSection) return;
+
+    scrollBtn.addEventListener("click", () => {
+        targetSection.scrollIntoView({
+            behavior: "smooth"
         });
     });
 }
